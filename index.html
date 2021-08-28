@@ -1,0 +1,139 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mathrix</title>
+		
+		<link  rel="stylesheet" type="text/css" href="Content/bootstrap-4.5.0-dist/css/bootstrap-4.4.1.css">
+		<link  rel="stylesheet" type="text/css" href="Content/bootstrap-4.5.0-dist/css/bootstrap.css">
+		<link  rel="stylesheet" type="text/css" href="Content/bootstrap-4.5.0-dist/css/bootstrap.css.map">
+		<link  rel="stylesheet" type="text/css" href="Content/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+		<link  rel="stylesheet" type="text/css" href="Content/bootstrap-4.5.0-dist/css/bootstrap.min.css.map">
+		<link  rel="stylesheet" type="text/css" href="Content/css/style.css">
+        <script src="js/popper.min.js"></script>
+        <script src="Content/bootstrap-4.5.0-dist/js/jquery-3.4.1.min.js"></script>
+        <script src="Content/bootstrap-4.5.0-dist/js/bootstrap-4.4.1.js"></script>
+        <script src="Content/bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+		<script src="Content/bootstrap-4.5.0-dist/js/bootstrap.js.map"></script>
+		<script src="Content/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+		<script src="Content/bootstrap-4.5.0-dist/js/bootstrap.min.js.map"></script>
+		<script src="Content/scripts/main.js"></script>
+	</head>
+
+	<body>
+	<main class="fixed-bottom ">
+	  <div id="wrap">
+			<!--preloader-->
+		<div class="preloader">
+		  <div class="preloader d-flex flex-wrap align-content-center">
+			  <div class="container flex-wrap d-flex justify-content-center">
+				  <img src="Content/images/Logo1.svg" class="img-fluid" id="logo_display" alt="Mathrix">
+			  </div>
+			  <br>
+			  <div class="d-flex container d-flex justify-content-center">
+				  <img src="Content/images/text.svg" class="img-fluid " id="logo_text" alt="" >
+			  </div>
+		  </div>
+		</div>
+		<!--end preloader-->
+		
+		<!--nav bar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">
+				<img src="Content/images/text.svg" alt="Mathrix" style="width: 50%" >
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+				<ul class="navbar-nav m-auto">
+				     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Langue du site </a>
+				     	<div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+							<a class="dropdown-item" href="#">Action</a> 
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a> 
+						</div>
+		      	  </li>
+			   </ul>
+		  </div>
+		</nav>
+		  <!--end navbar-->
+		  
+		  <!--home page section-->
+		  <section id="homepage">
+			<div class="tab-content">
+				
+				<!--start-->
+			  <div class="tab-pane in active" id="start">
+				<div class="flex-wrap container-fluid row" >
+					<div class="col-6 d-flex justify-content-center loader-image">
+					  <img src="Content/images/Logo.png" class="img-fluid" alt="Mathrix">
+					</div>
+					<div class="col-6 d-flex flex-wrap align-content-center" >
+
+						<div class=" container-fluid flex-wrap d-flex justify-content-center" >
+							<p>
+							Constater pour la majorité des élèves, les maths ne sont pas amusants et ennuyeux.<br> 
+							Mathrix est donc là pour aider les élèves avec cette matière.
+							</p>
+						</div>
+						<div class="container flex-wrap d-flex justify-content-center row spacer"><p><br></p></div>
+						<div class="container flex-wrap d-flex justify-content-center">
+							<div class="container row d-flex justify-content-center">
+							<a data-toggle="tab" href="#classe" class="btn mathrix-btn">Commencer</a>
+							</div>
+							<div class="container row spacer"><p><br></p></div>
+							<div class="container row d-flex justify-content-center">
+							<a data-toggle="tab" href="#classe" class="btn mathrix-btn">Connexion</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!--end start-->
+				
+				<!--grade-->
+				<div class="tab-pane fade" id="classe">
+
+					<div class="container-fluid flex-wrap row d-flex flex-wrap align-content-center" >
+						<div class="col-3"></div>
+
+						<div class="col-3 d-flex flex-wrap flex-column justify-content-center align-content-center" >
+							<button type="button" class="btn btn-lg mathrix-btn"><a href="Views/six.php">6ème</a></button><br>
+							<button type="button" class="btn btn-lg mathrix-btn"><a href="#">5ème</a></button><br>
+							<button type="button" class="btn btn-lg mathrix-btn"><a href="#">4ème</a></button><br>
+							<button type="button" class="btn btn-lg mathrix-btn"><a href="#">3ème</a></button><br>
+						</div>
+						<div class="col-3 d-flex flex-column justify-content-center" >
+							<button type="button" class="btn btn-lg mathrix-btn"><a href="#">Seconde</a></button><br>
+							<button type="button" class="btn btn-lg mathrix-btn"><a href="#">Première</a></button><br>
+							<button type="button" class="btn btn-lg mathrix-btn"><a href="#">Terminale</a></button><br>
+						</div>
+							
+						<div class="col-3"></div>
+			  		</div>
+			 	</div>
+				<!--end grade-->	
+
+			</div>
+		  </section>
+		  <!--à remplir ultérieurement-->
+		  <section id="about">
+		  </section>
+		  
+		  <!--footer-->
+		  <section id="footer">
+			<footer>
+				<div class="container-fluid d-flex flex-wrap justify-content-center" align="center">
+					<p>Ce site web a été développé à Madagascar par une élève de l'ENI.<br>
+						&copy;JPxJB
+					</p>
+				</div>
+			</footer>
+		  </section>
+		  
+	  </div>
+		
+	</main>
+</body>
+</html>
